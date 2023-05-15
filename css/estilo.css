@@ -1,0 +1,137 @@
+
+/* imagen de fondo que ocupa todo el html*/
+
+
+body{
+   /*background-image: url("../img/mando.jpg"); 
+   background-repeat: no-repeat;*/
+   background-color: black;
+}
+/*Menu*/
+ #mainNav {
+    -webkit-box-shadow: none;
+    /*box-shadow: none;
+    background-color: transparent;*/
+    background-color: #fff;
+  }
+#mainNav.navbar-scrolled {
+    /*-webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);*/
+    background-color: #fff;
+  }
+  #mainNav.navbar-scrolled .navbar-brand {
+    /*color: #212529;*/
+    color: black;
+  }
+  #mainNav.navbar-scrolled .navbar-brand:hover {
+    color: blue;
+  }
+  #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
+   /*color: #212529;*/
+    color: black;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+   /*color: #212529;*/
+    color: black;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: blue;
+  }
+  .active{
+    background-color: grey;
+    opacity:0.5;
+  }
+
+nav.breadcrumb ol {
+  height: 25px;
+  margin: 0;
+  padding-left: 0;
+  list-style: none; 
+}
+
+nav.breadcrumb li {
+  display: inline;
+}
+
+nav.breadcrumb li + li::before {
+  color:white;
+  display: inline-block;
+  margin: 0 0.25em;
+  transform: rotate(15deg);
+  border-right: 0.1em solid currentColor;
+  height: 0.8em;
+  content: '';
+}
+
+nav.breadcrumb [aria-current="page"] {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+  /*Principal*/
+  #resultado{
+    color:white;
+  }
+  /*Reloj */
+  #fecha{
+    color:white;
+  }
+  #reloj{
+    width: 100px;
+    height: 50px
+    margin:auto;
+    text-align: center;
+    font-size: 14px;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: lightgrey;
+  }
+  /*Formulario*/
+  .Ubicacion{
+    width: 100px;
+    height: 100px;
+  }
+  #identificador{
+    background-color: cornsilk;
+  }
+/* flota */
+  .parallax {
+  /* The image used */
+  background-image: url("../img/mando.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+  #contacto
+  {
+    background-color: transparent;
+  }
+   .cinto{
+    width: 90px;
+    height: 90px;
+  }
+  .cinto2{
+    width: 90px;
+    height: 90px;
+  }
+  .iso{
+  	width: 90px;
+    height: 100px;
+  }
+  /*footer*/
+  .separador
+  {
+    color: black;
+  }
+  .fono{
+    width: 40px;
+    height: 40px;
+  }
+  

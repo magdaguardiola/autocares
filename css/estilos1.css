@@ -1,0 +1,104 @@
+
+html{
+   background-image: url("../img/plumas.jpg"); 
+   background-repeat: no-repeat;
+   background-color: black;
+}
+body{
+	font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+}
+h1{
+	margin-left: 10px;
+}
+#formulario {
+	width: 800px;
+	margin: auto;
+    border-radius: 10px;
+	background-color: rgba(176,174,173,.8);
+}
+ul{
+	list-style-type:none;
+}
+li{
+	font-weight: bold;
+}
+
+.foco:hover{
+   background-color: lightgrey;
+}
+input, select, textarea{
+	margin-left: 100px;
+	padding: 5px;
+	border:0px;
+	background-color: rgba(176,174,173,.4);
+	border-bottom: 2px solid black;
+}
+#nombre{
+	width: 180px;
+}
+#calle{
+	width: 300px;
+}
+#codigo, #provincia, #pais{
+	width: 100px;
+}
+
+#municipio{
+	width: 150px;
+	margin-right: 400px;
+}
+
+#fij{
+	width: 150px;
+}
+#telMovil{
+	width: 150px;
+	margin-right: 300px;
+
+}
+label{
+	margin-left:100px;
+	font-size: 12px;
+	color:green;	
+}
+#cont{
+	display: flex;
+	justify-content: space-between;
+}
+#cont2{
+	display: flex;
+	justify-content: space-between;
+}
+#cont3{
+	height: 30px;
+	color: black;
+	background-color: lightgrey;
+	border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.8);
+	float: right;
+	margin-right: 20px;
+}
+#cont4{
+  margin-left: 20px;
+}
+button{
+	height: 30px;
+	color: black;
+	background-color: lightgrey;
+	border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.8);
+}
+
+footer{
+    border:1px solid;
+    border-radius: 10px;
+    width: 800px;
+    height: 40px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top:10px;
+    background-color: rgba(176,174,173,.8);
+    display:flex;
+    justify-content: center;
+
+}

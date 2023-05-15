@@ -1,0 +1,66 @@
+
+html{
+   background-image: url("../img/plumas.jpg"); 
+   background-repeat: no-repeat;
+   background-color: black;
+}
+
+
+ul{
+    border:1px solid;
+    border-radius: 10px;
+    width: 800px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top:10px;
+    background-color: rgba(176,174,173,.8);
+    justify-content: center;
+}
+#resultado{
+    border:1px solid;
+    border-radius: 10px;
+    width: auto;
+    padding-top: 10px;
+    margin: auto;
+    margin-top:10px;
+    background-color: rgba(176,174,173,.8);
+    justify-content: center;
+
+}
+#cont3 {
+    height: 30px;
+    color: black;
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.8);
+}
+#cont4{
+  margin-left: 20px;
+}
+
+button{
+    height: 30px;
+    color: black;
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.8);
+}
+
+
+
+
+
+
+footer{
+    border:1px solid;
+    border-radius: 10px;
+    width: 845px;
+    height: 40px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top:10px;
+    background-color: rgba(176,174,173,.8);
+    display:flex;
+    justify-content: center;
+
+}
