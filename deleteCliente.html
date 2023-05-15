@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" type="image/jpg" href="img/logo3.jpg">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Autocares La Florida</title>
+
+</head>
+<body>
+
+	<!-- MENÚ RESPONSIVE COLLAPSE -->
+	<nav id="mainNav" class="navbar navbar-expand-md navbar-light fixed-top" >
+		<!-- Aqui colocamos el nuestro logo-->
+		<a class="navbar-brand" href="#">
+			<img src="img/logo3.jpg" width="60" class="d-inline-block align-middle" alt="logo">
+			 <img src="img/logo5.jpg" width="60" class="d-inline-block align-middle" alt="logo"><img src="img/logo4.jpg" width="150" class="d-inline-block align-middle" alt="logo"><img src="img/marca2.png" width="180" class="d-inline-block align-middle" alt="logo">
+		</a>
+		<!-- Colapsamos la barra de navegacion, en pantallas pequeñas,se oculta los enlaces y se reemplazan con un boton que se despliega-->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target  ="#collapsibleNavbar">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+       <!-- links y busqueda del navegador que colapsan en pantalla pequeña -->
+		<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+			    <ul class="navbar-nav"><br/>
+					      <li class="nav-item">
+					        <a class="nav-link" href="index.html">Inicio</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="empresa.html">Empresa</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="noticias.html">Calidad</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="flota.html">Flota</a>
+					      </li> 
+					      <li class="nav-item">
+					        <a class="nav-link" href="servicios.html">Servicios</a>
+					      </li>
+					      <li class="nav-item ">
+					        <a class="nav-link" href="contacto.html">Contacto</a>
+					      </li> 
+					      <li class="nav-item active">
+					        <a class="nav-link" href="administrativo.html">Administrativo</a>
+					      </li> 
+					      <li class="nav-item">
+					      <img alt="Bandera inglesa" title="Bandera inglesa" src="img/ingles-bandera.png" class="ds-traductor-btn" idioma="en" style="width: 45px;height: 45px;">
+					      <img alt="Bandera española" title="Bandera española" src="img/española-bandera.png" class="ds-traductor-btn" idioma="es" style="width: 45px;height: 45px;">
+					      </li> 
+					      <li class="nav-item">
+					      </li>
+					      <li class="nav-item">
+
+			<!-- LOGIN -->   	
+					     <!-- Button trigger modal -->
+								<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" style="margin-left: 10px;">
+								  login
+								</button>
+
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" >
+								  <div class="modal-dialog modal-dialog-centered" role="document">
+								    <div id="logear" class="modal-content" style="background-color:grey;opacity:0.9;">
+								      <div class="modal-header">
+								        <h5 class="modal-title" id="exampleModalLongTitle">Sign In</h5>
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								          <span aria-hidden="true">&times;</span>
+								        </button>
+								      </div>
+								      <div class="modal-body">
+								      	<form>
+											<div class="input-group form-group">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-user"></i></span>
+												</div>
+												<input type="text" class="form-control" placeholder="username">
+												
+											</div>
+											<div class="input-group form-group">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-key"></i></span>
+												</div>
+												<input type="password" class="form-control" placeholder="password">
+											</div>
+											<div class="row align-items-center remember"style="margin-left: 10px;">
+												<input type="checkbox">Remember Me
+											</div>
+											<div class="form-group">
+												<input type="submit" value="Login" class="btn float-right login_btn btn-info">
+											</div>
+										</form>
+								      </div>
+								      <div class="modal-footer">
+								        <div class="d-flex justify-content-center links">
+											Don't have an account?<a href="#">Sign Up</a>
+										</div>
+										<div class="d-flex justify-content-center">
+											<a href="#">Forgot your password?</a>
+										</div>
+								      </div>
+								    </div>
+								  </div>
+								</div> 
+						</li> 
+			    </ul>
+			<!-- <form class="form-inline d-md-none d-lg-inline">
+				<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="search">
+				<button class="btn btn-outline-info my-2 my-sm-0" type="submit">Buscar</button>
+			</form> -->
+		</div>  
+	</nav>
+			<!-- Pagina en la que estamos-->
+			<br/><br/><br/><br/>
+	<nav aria-label="Breadcrumb" class="breadcrumb" style="background-color: black;font-size: 12px;">
+			  <ol>
+			    <li>
+			      <a href="administrativo.html">administrativo</a>
+			    </li>
+			    <li>
+			      <a href="buscarCliente.html">Buscar cliente</a>
+			    </li>
+			    <li>
+			      <a href="deleteCliente.html" aria-current="page">Borrar cliente</a>
+			    </li>
+			  </ol>
+	 </nav> 
+	<!-- INICIO -->
+	<div id="inicio" class="container-fluid">
+		<div class="row">
+				<div class="col-12 text-center mb-3 col-md-6 text-md-left text-info">
+				<h1>Autocares La Florida </h1>
+			</div>
+		</div>
+
+<!-- PRINCIPAL -->
+ 
+<div id="resultado">
+		<h2 class="text-center">Borrar Cliente</h2><br/><br/>
+			<table>
+					<thead>
+						<tr>
+							<th>#&nbsp;&nbsp;&nbsp;</th>
+							<th>Nombre&nbsp;&nbsp;&nbsp;</th>
+							<th>Apellidos&nbsp;&nbsp;&nbsp;</th>
+							<th>CIF o DNI&nbsp;&nbsp;&nbsp;</th>
+							<th>Direccion&nbsp;&nbsp;&nbsp;</th>
+			                <th>Código postal&nbsp;&nbsp;&nbsp;</th>
+							<th>Ciudad&nbsp;&nbsp;&nbsp;</th>
+							<th>Provincia&nbsp;&nbsp;&nbsp;</th>
+							<th>Teléfono&nbsp;&nbsp;&nbsp;</th>
+			                <th>Email&nbsp;&nbsp;&nbsp;</th>
+						</tr>
+					</thead>
+				<tbody>
+ 					<?php foreach ($result as $row) : ?>
+						<tr>
+							<td class="text-info"><?php echo escape($row["id"]); ?>20325&nbsp;</td>
+							<td class="text-info"><?php echo escape($row["nombre"]); ?>C.E.I.P Alfonso Rodríguez Castelao</td>
+							<td class="text-info"><?php echo escape($row["Apellidos"]); ?>&nbsp;</td>
+							<td class="text-info"><?php echo escape($row["edad"]); ?>P3606800H</td>
+							<td class="text-info"><?php echo escape($row["direccion"]); ?>Rúa da Peda Seixa&nbsp;</td>
+							<td class="text-info"><?php echo escape($row["codigoPostal"]); ?>36212</td>
+							<td class="text-info"><?php echo escape($row["municipio"]); ?> Vigo</td>
+							<td class="text-info"><?php echo escape($row["provincia"]); ?>Pontevedra&nbsp;</td>
+							<td class="text-info"><?php echo escape($row["telFijo"]); ?>886120253&nbsp;</td>
+							<td class="text-info"><?php echo escape($row["email"]); ?>ceip.castelao.vigo@edu.xunta.es</td> 
+							<td class="text-info"><button class="btn-outline-info" type="submit" name="submit" value="<?php echo escape($row["id"]); ?>Borrar</button></td>  
+						</tr>
+					<?php endforeach; ?>
+				</tbody>
+        </table><br/>
+
+		<!--<?php } else { ?>
+		<blockquote>No se encontraron registros para <?php echo escape($_POST['municipio']); ?>.</blockquote>
+		<?php }
+		} ?>-->
+		
+  		<br/>
+        <div>
+        	<button class="btn-outline-info" type="button" onclick="window.location.href='administrativo.html'">Volver</button>
+        </div>
+<br/><br/>
+	<!-- FLOTA -->
+		<div id="contacto" class="parallax" class="container-fluid">
+			<div class="row">
+				<div class="col-12 mb-3 text-center text-info">
+					<!-- <h1>Nuestra Flota</h1> -->
+				</div>
+				<div class="col-12">
+					<br/>
+					<h4 class="text-center text-info " style="font-size: 50px;">Una gran flota a su disposición</h4>
+					<br/>
+						
+						<div class="row">
+							<div class="col-md-4 text-center text-info" style="font-size: 30px;">
+								<p>Cinturones de seguridad</p>
+								<img class= "cinto" class= "text-md-left" src="img/cinto2.png" title="cinto" alt="cinto">
+							 	<img class= "cinto" class= "text-md-left" src="img/cinto3.png" title="cinto" alt="cinto">
+							 	<p></p>
+							 	<br/>
+							</div>
+							<div class="col-md-4 text-center text-info" style="font-size: 30px;">
+								<p>Normativas de calidad</p>
+								<img class= "iso" class= "text-md-left" src="img/ISO4001.jpg" title="iso" alt="iso">
+								<img class= "iso" class= "text-md-left" src="img/ISO9001.jpg" title="iso" alt="iso">
+								<p></p>
+								<br/>
+							</div>
+							<div class="col-4 text-center text-info" style="font-size: 30px;">
+								<p>Comodidad</p>
+								<img class= "cinto2" class= "text-md-left" src="img/condicionado.png" title="aire" alt="cinto">
+								<img class= "cinto2" class= "text-md-left" src="img/coche.png" title="aire" alt="cinto">
+							 	<img class= "cinto2" class= "text-md-left" src="img/tele1.png" title="tele" alt="cinto">
+							 	<img class= "cinto2" class= "text-md-left" src="img/radio.png" title="radio" alt="cinto">
+								<p></p>
+								<br/>
+						</div>
+						<br/>
+						<br/>
+				</div>
+			</div>
+		</div>
+	
+	<!-- FOOTER -->
+	<div id="footer" class="container-fluid bg-info">
+		<div class="row">
+			<div class="col-12 text-center">
+				<div class="row">
+					<div  class= "col-md-4 text-md-center">
+						 <br/>
+						 <p>Solicite presupuesto</p>
+						 <div class="separador" style="text-align: center;">_____________</div><br/>
+						 <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Presupuesto</button>
+					</div>
+					<div  class= "col-md-4 text-md-left text-xl-center">
+						<br/>
+						 <p style="text-align: center;">Síganos en redes sociales</p>
+						 <div class="separador" style="text-align: center;">_____________</div><br/>
+							 <img src="img/face.png" title="Facebook" alt="Facebook" >
+							 <img src="img/insta.png" title="Instagram" alt="Instagram">	
+					</div>
+					<div  class= "col-md-4 text-md-center">
+						 <br/>
+						 <p>Contacte con nosotros</p>
+						 <div class="separador" style="text-align: center;">_____________</div><br/>
+						 <ul class="navbar-nav" class="telefonos">
+					      <li class="nav-item">
+					       <img class= "fono" alt="Telefono" src="img/telefono.png">986238638 
+					      </li>
+					      <li class="nav-item">
+					       <img class= "fono" alt="Telefono" src="img/fax.png">986481563 
+					      </li>
+					      <li class="nav-item">
+					      <img class= "fono" alt="Email" src="img/aroba.png">info@autocaresflorida.com
+					      </li> 
+
+			    </ul>
+					</div>	
+				</div>
+				<br/>
+				<div class="footer-copyright text-center py-3">
+					Copyright &copy; 2019.
+					<a href="#"> Magdalena Rios Guardiola</a>
+					Todos los derechos reservados
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!-- con esto nos funcionar algunas propiedades como la del colapso de menu -->
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/popper.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/rutinas.js"></script>
+
+</body>
+</html>
